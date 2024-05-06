@@ -17,13 +17,13 @@ The union-find data structure is a fundamental component in many algorithms, pla
 <a id="implementation-details"></a>
 The datastructure is implemented in Java 20 SDK and built using the Intellij IDE, The charting library requires a minmum of Java 8+ for implementation.
 
-Available Files:
+#### Available Files:
 1. Source Code (UnionFind/src/*)
 2. test.txt
 3. input.txt
 4. test1.txt
 
-Running Instructions:-
+#### Running Instructions:-
 
 1.	open command prompt/terminal in the file location
 2.	type java -jar ‘filename.jar’ ‘input_filename.txt’
@@ -33,7 +33,7 @@ Running Instructions:-
       4.	Default file name for input_filename is input.txt: see example below:
 3.	Output will be graph plots, terminal prints and ‘inputfilename_output.txt’ in the same directory.
 
-Expected Outputs
+#### Expected Outputs
 *	The program will output the output of the find operations in the terminal as well as create an output file as required in the requirements.
 *	The program will also generate 4 plots to compare the performance of the find operation among both the algorithms, one to compare the recursive ‘hops’ taken to reach the parent with respect to its rank, and the other time taken to perform the find operation, to Illustrate and observe and mark an inference from the two algorithms.
 
